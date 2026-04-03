@@ -1,11 +1,19 @@
 # Universal-Brain-Dynamics
 For "A Universal Space of Brain Dynamics for Unveiling Cognitive Transitions and Individual Differences"
+
+## Data
+The repository does not distribute any raw neuroimaging or third‑party datasets. To reproduce the results, you will need to obtain the data from the original sources and respect their usage policies.
+Human Connectome Project (HCP)
+UK Biobank imaging data
+Neuroimaging data from UK Biobank are available by application via the UK Biobank access management system (project application ID as stated in the manuscript).
+
 # UBD Experiment Guide
 Quick start, data should be in the folder 'dataset':
 For train model: python run.py --net 0
 For test model: python run.py --net 1
 This project switches between different experiment modes through the `net` parameter in `run.py`. The current implementation contains only one model class, `Exp_gcn`, and different `net` values correspond to different experiment workflows.
 Matlab code should be executed after run.py or download from Zenodo.
+
 
 ## 1. Entry Point
 
