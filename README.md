@@ -51,7 +51,7 @@ For test model: python run.py --net 1
 
 This project switches between different experiment modes through the `net` parameter in `run.py`. The current implementation contains only one model class, `Exp_gcn`, and different `net` values correspond to different experiment workflows.
 
-Matlab code should be executed after obtaining data from run.py or downloading from Zenodo https://zenodo.org/records/19394402.
+Run the corresponding Matlab code (.m) to reproduce figures in the manuscript, which should be executed after obtaining data from run.py or downloading from Zenodo https://zenodo.org/records/19394402.
 
 
 ## 1. Entry Point
