@@ -9,6 +9,40 @@ Human Connectome Project-young-adult (HCP-YA)
 # UBD Experiment Guide
 Note: Example model, full dataset of 8 states in 963 subjects, Matlab code dependency needs to be downloaded from Zenodo https://zenodo.org/records/19396235
 
+For successful running, please check the fold tree:
+
+```
+ubd/
+├─ run.py
+├─ load.py
+├─ data2graph.py
+├─ utils.py
+├─ ubd_model.py
+├─ requirements.txt
+├─ README.md
+├─ classify/
+├─ cluster/
+├─ classfy/
+├─ model/
+├─ predict/
+├─ rest/
+├─ task/
+├─ theta/
+├─ fig1.m
+├─ fig2_part1.m
+├─ fig2_part2.m
+├─ fig3_part1.m
+├─ fig3_part2.m
+├─ fig3_part3.m
+├─ fig4_part1.m
+├─ fig4_part2.m
+├─ exp/
+│  ├─ exp_basic.py
+│  └─ train_gcn.py
+├─ dataset/
+└─ matlab_code/
+```
+
 Quick start, data should be in the folder 'dataset':
 
 For train model: python run.py --net 0
