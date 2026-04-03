@@ -1,0 +1,6 @@
+hdf5storage==0.1.19
+numpy==2.0.2
+pandas==1.2.3
+scipy==1.11.3
+torch==2.1.0+cu121
+torch-geometric==2.4.0
