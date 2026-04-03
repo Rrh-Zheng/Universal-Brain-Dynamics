@@ -11,6 +11,8 @@ UK Biobank imaging data
 Neuroimaging data from UK Biobank are available by application via the UK Biobank access management system (project application ID as stated in the manuscript).
 
 # UBD Experiment Guide
+Note: Example model, full dataset of 8 states in 963 subjects, Matlab code dependency needs to be downloaded from Zenodo https://zenodo.org/records/19396235
+
 Quick start, data should be in the folder 'dataset':
 
 For train model: python run.py --net 0
