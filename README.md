@@ -4,11 +4,11 @@ For "A Universal Space of Brain Dynamics for Unveiling Cognitive Transitions and
 ## Data
 The repository does not distribute any raw neuroimaging or third‑party datasets. To reproduce the results, you will need to obtain the data from the original sources and respect their usage policies.
 
--Human Connectome Project (HCP)
+Human Connectome Project (HCP)
 
--UK Biobank imaging data
+UK Biobank imaging data
 
--Neuroimaging data from UK Biobank are available by application via the UK Biobank access management system (project application ID as stated in the manuscript).
+Neuroimaging data from UK Biobank are available by application via the UK Biobank access management system (project application ID as stated in the manuscript).
 
 # UBD Experiment Guide
 Quick start, data should be in the folder 'dataset':
