@@ -19,7 +19,7 @@ For test model: python run.py --net 1
 
 This project switches between different experiment modes through the `net` parameter in `run.py`. The current implementation contains only one model class, `Exp_gcn`, and different `net` values correspond to different experiment workflows.
 
-Matlab code should be executed after obtaining data from run.py or downloading from Zenodo.
+Matlab code should be executed after obtaining data from run.py or downloading from Zenodo https://zenodo.org/records/19394402.
 
 
 ## 1. Entry Point
@@ -342,13 +342,13 @@ python run.py
 
 | net | Output directory |
 | --- | --- |
-| 0 | `./model/train_on_{train}_hidden_{hidden_dim}/num_{train_num}_thred_{thred}/` |
+| 0 | `./model/` |
 | 1 | `./predict/` |
-| 2 | `./classfy/subject_{test_num}_length_{random_time}/` |
-| 3 | `./cluster/{task}/` |
+| 2 | `./classfy/` |
+| 3 | `./cluster/` |
 | 4 | `./theta/` |
 | 5 | `./rest/` |
-| 6 | `./task/{task}/` |
+| 6 | `./task/` |
 
 ## 8. Notes
 
