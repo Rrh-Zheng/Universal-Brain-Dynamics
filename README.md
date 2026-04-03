@@ -4,11 +4,7 @@ For "A Universal Space of Brain Dynamics for Unveiling Cognitive Transitions and
 ## Data
 The repository does not distribute any raw neuroimaging or third‑party datasets. To reproduce the results, you will need to obtain the data from the original sources and respect their usage policies.
 
-Human Connectome Project (HCP)
-
-UK Biobank imaging data
-
-Neuroimaging data from UK Biobank are available by application via the UK Biobank access management system (project application ID as stated in the manuscript).
+Human Connectome Project-young-adult (HCP-YA)
 
 # UBD Experiment Guide
 Note: Example model, full dataset of 8 states in 963 subjects, Matlab code dependency needs to be downloaded from Zenodo https://zenodo.org/records/19396235
