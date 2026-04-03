@@ -9,7 +9,7 @@ Human Connectome Project-young-adult (HCP-YA)
 # UBD Experiment Guide
 Note: Example model, full dataset of 8 states in 963 subjects, Matlab code dependency needs to be downloaded from Zenodo https://zenodo.org/records/19396235
 
-For successful running, please check the fold tree:
+For successful running, please check the file tree:
 
 ```
 ubd/
