@@ -107,7 +107,7 @@ class Exp_gcn(Exp_Basic):
         if not os.path.exists(path):
             os.makedirs(path)
 
-        path_full = path + task + '_subject_' + str(self.args.test_num) + '.mat'
+        path_full = path + task + '_subject_' + str(self.args.test_num) + '_length_' + str(self.args.predict_length) + '.mat'
         savemat(path_full, {'t': all_truths, 'x_adv': all_batch1, 'x_enc': all_batch2})
 
     def classfy(self):
