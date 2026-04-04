@@ -33,21 +33,22 @@ size = 426
 time_shift = 10
 hidden_dim = 18
 train = 'res'
-# task_dict = ['res', 'wm', 'mot', 'lan', 'emo', 'rel', 'gam', 'soc']
-task_dict = ['res']
+task_dict = ['res', 'wm', 'mot', 'lan', 'emo', 'rel', 'gam', 'soc']
+# task_dict = ['res']
 
 for i in range(len(task_dict)):
     task = task_dict[i]
     if task in ('mot', 'lan', 'wm'):
         subtask = task_subtask_dict[task]
+        timerow = subtask_time_dict[task]
     else:
         subtask = task_subtask_dict['res']
+        timerow = subtask_time_dict['res']
     num_dict = [35]
     need_compare = True
     test_num = 40
-    predict_length = 5
+    predict_length = 100
     awake_delay = 0
-    timerow = subtask_time_dict[task]
 
     parser = argparse.ArgumentParser()
 
