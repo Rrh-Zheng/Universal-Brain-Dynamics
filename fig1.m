@@ -27,7 +27,8 @@ data_struct = struct();
 for i = 1:length(mat_files)
     filename = mat_files(i).name;
     [~, name, ~] = fileparts(filename);  
-    
+    parts = strsplit(name, '_');
+    name = parts{1};
     file_path = fullfile(folder_path, filename);
     loaded_data = load(file_path);
     
@@ -74,7 +75,7 @@ for dataset_idx = 1:num_datasets
     start = 25;
     row_num = predict_length / start;
     
-    cor_all_adv = zeros(row_num, num_subjects, 1);
+    cor_all_adv = zeros(row_num, num_subjects, 1); % predictive horizon need large than 25
     cor_all_enc = zeros(row_num, num_subjects, 1);
     
     for time = start:start:predict_length
