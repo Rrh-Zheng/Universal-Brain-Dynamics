@@ -44,7 +44,7 @@ def load_fmri_train(timeshift, delay, batch_size, train_data, train_num, thred=1
 def load_fmri_test(start_time, predict_time, delay, batch_size, task, test_num=-1, thred=1, surrogate='no'):
     path = './dataset/' + task + '.npz'
     file_struct = np.load(path)
-    x_struct = file_struct['fmri_data']
+    x_struct = file_struct['struct_data']
     x_struct = x_struct.astype(np.float32, copy=False)
 
     if surrogate == 'phase':
