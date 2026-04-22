@@ -1,5 +1,5 @@
 # Universal-Brain-Dynamics
-For "A Universal Space of Brain Dynamics for Unveiling Cognitive Transitions and Individual Differences"
+For "A Universal Space of Brain Dynamics for Unveiling Cognitive Transitions and Individual Differences". Full data can be downloaded from Zenodo https://zenodo.org/records/19396235 and https://zenodo.org/records/19394402. For more details, please get in touch with 23110850018@m.fudan.edu.cn.
 
 ## Data
 The repository does not distribute any raw neuroimaging or third‑party datasets. To reproduce the results, you will need to obtain the data from the original sources and respect their usage policies.
